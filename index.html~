@@ -37,4 +37,6 @@
       <li>Aucun billet</li>
     </ul>
   </div>
+  <div id="footer">
+  </div>
 </body>
