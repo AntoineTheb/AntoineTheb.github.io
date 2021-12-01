@@ -96,16 +96,30 @@ Work experience
 
 Conferences
 ======
-* Colloque REPARTI 2021
-  * Université Laval (online)
-  * Oral presenter
-* ISMRM 2021
-  * Paris (online)
-  * Oral presenter
+* Colloque REPARTI 2021, oral presenter, attendee
+* ISMRM 2021, oral presenter, attendee
+* Symposium on Explanation in Neuroscience and Artificial Intelligence, attendee
+* Symposium International Imaginez l'Imagerie 2020, organizer, reviewer
+* MAIN 2020, attendee
+* MIDL 2020, reviewer, volunteer, attendee
+* UNIQUE 1st Scientific Day, 2019, attendee
+* Cabane.io @ Sherbrooke, 2019, organizer
+* Hackfest, 2019, attendee
+* ISMRM 2019, attendee
+* DIPY Workshop 2019, attendee
 
 Competitions
 ======
-* TODO
+* Northsec 2020, team Clickesti
+* CS Games 2020, coach and mentor
+* Nothsec 2019, JDIS Team
+* JDIS Games 2019, organizer
+* CS Games 2019, coach and mentor
+* Coveo Blitz 2019, team PerchaUDES
+* CS Games 2018, team romano
+* Google Games 2018, team Ba$$in
+* Coveo Blitz 2018, team Laser Raptors
+* CS Games 2017, team Ramsay
 
 Publications
 ======
