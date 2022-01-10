@@ -40,7 +40,7 @@ Travaux pratiques
 |   | Nom                                      | Fichiers | Énoncé |
 |---|------------------------------------------|----------|--------|
 | 1 | Réseaux de neurones pleinement connectés | [TP1.zip](/files/ift780/TP1/TP1.zip) | [PDF](/files/ift780/TP1/IFT780_TP1.pdf) |
-| 2 | Réseaux de neurones convolutifs          |  |  |
+| 2 | Réseaux de neurones convolutifs          | [TP2.zip](/files/ift780/TP2/TP2.zip) | [PDF](/files/ift780/TP2/IFT780_TP2.pdf) |
 | 3 | Projet                                   |  |  |
 
 Ressources
