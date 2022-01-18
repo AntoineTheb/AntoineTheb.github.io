@@ -19,19 +19,19 @@ Méthode pédagogique
 ======
 
 
-|    | Thème                                                               | Slides                                    | Lectures: |
-|----|---------------------------------------------------------------------|-------------------------------------------|
-| 0  | Présentation                                                        | [PDF](/files/ift780/00_presentation.pptx) |                                             |
-| 1  | Concepts de base                                                    | [PDF](/files/ift780/01_MLP.pptx)          | [[9]](#9) : 6.1, 6.2, 6.3, 6.5, [[45]](#27) |
-| 2  | Réseaux à convolution                                               |                                           | [[21]](#21) : 9.0 à 9.5 ; [[27]](#27) |
-| 3  | Réseaux à convolution avancés et architectures convolutives modernes|                                           | Réseaux à convolutions : [[27]](#27) [[26]](#26) [[22]](#22) [[45]](#45) [[50]](#50) [[43]](#43) [[46]](#46) [[17]](#17) [[20]](#20) [[19]](#19) |
-| 4  | Segmentation et localisation                                        |                                           | Segmentation et localisation : [[48]](#48) [[29]](#29) [[1]](#1) [[42]](#42) [[32]](#32) [[5]](#5) [[23]](#23) [[6]](#6) [[34]](#34) [[14]](#14) [[13]](#13) [[41]](#41) [[39]](#39) [[40]](#40) [[28]](#28) [[16]](#16) |
-| 5  | Matériel et bibliothèques de code                                   |                                           |           |
-| 6  | Considérations pratiques                                            |                                           |           |
-| 7  | Réseaux récurrents, attention et transformers                       |                                           | Réseaux récurrents [[31]](#31) [[18]](#18) [[8]](#8) Attention : [[2]](#2) [[30]](#30) [[49]](#49) [[7]](#7) Transformers : [[47]](#47) [[11]](#11) [[37]](#37) [[38]](#38) [[4]](#4)|
-| 8  | Modèles génératifs                                                  |                                           | Autoencodeurs : [[25]](#25) [[35]](#35) [[44]](#44) [[12]](#12) GANs : [[15]](#15) [[33]](#33) [[36]](#36) [[3]](#3) [[24]](#24) |
-| 9  | Visualisation                                                       |                                           |           |
-| 10 | Optimisation d’hyper-paramètres                                     |                                           |           |
+|    | Thème                                                               | Slides                                     | Lectures: |
+|----|---------------------------------------------------------------------|--------------------------------------------|
+| 0  | Présentation                                                        | [PPTX](/files/ift780/00_presentation.pptx) |                                             |
+| 1  | Concepts de base                                                    | [PPTX](/files/ift780/01_MLP.pptx)          | [[9]](#9) : 6.1, 6.2, 6.3, 6.5, [[45]](#27) |
+| 2  | Réseaux à convolution                                               | [PPTX](/files/ift780/02_CNN.pptx)          | [[21]](#21) : 9.0 à 9.5 ; [[27]](#27) |
+| 3  | Réseaux à convolution avancés et architectures convolutives modernes|                                            | Réseaux à convolutions : [[27]](#27) [[26]](#26) [[22]](#22) [[45]](#45) [[50]](#50) [[43]](#43) [[46]](#46) [[17]](#17) [[20]](#20) [[19]](#19) |
+| 4  | Segmentation et localisation                                        |                                            | Segmentation et localisation : [[48]](#48) [[29]](#29) [[1]](#1) [[42]](#42) [[32]](#32) [[5]](#5) [[23]](#23) [[6]](#6) [[34]](#34) [[14]](#14) [[13]](#13) [[41]](#41) [[39]](#39) [[40]](#40) [[28]](#28) [[16]](#16) |
+| 5  | Matériel et bibliothèques de code                                   |                                            |           |
+| 6  | Considérations pratiques                                            |                                            |           |
+| 7  | Réseaux récurrents, attention et transformers                       |                                            | Réseaux récurrents [[31]](#31) [[18]](#18) [[8]](#8) Attention : [[2]](#2) [[30]](#30) [[49]](#49) [[7]](#7) Transformers : [[47]](#47) [[11]](#11) [[37]](#37) [[38]](#38) [[4]](#4)|
+| 8  | Modèles génératifs                                                  |                                            | Autoencodeurs : [[25]](#25) [[35]](#35) [[44]](#44) [[12]](#12) GANs : [[15]](#15) [[33]](#33) [[36]](#36) [[3]](#3) [[24]](#24) |
+| 9  | Visualisation                                                       |                                            |           |
+| 10 | Optimisation d’hyper-paramètres                                     |                                            |           |
 
 Le plan de cours complet est disponible ici: [plan de cours](/files/ift780/ift780.pdf)
 
@@ -112,7 +112,7 @@ Références
 
 [26]<a name="26"></a> KRIZHEVSKY, ALEX AND SUTSKEVER, ILYA AND HINTON, GEOFFREY E : Imagenet classification with deep convolutional neural networks. Advances in neural information processing systems, 25:1097–1105, 2012.
 
-[27]<a name="27"></a> LECUN, YANN AND BOTTOU, LÉON AND BENGIO, YOSHUA AND HAFFNER, PATRICK : Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278–2324, 1998.
+[[27]<a name="27"></a> LECUN, YANN AND BOTTOU, LÉON AND BENGIO, YOSHUA AND HAFFNER, PATRICK : Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278–2324, 1998.](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)
 
 [28]<a name="28"></a> LIU, WEI AND ANGUELOV, DRAGOMIR AND ERHAN, DUMITRU AND SZEGEDY, CHRISTIAN AND REED, SCOTT AND FU, CHENG-YANG AND BERG, ALEXANDER C : Ssd : Single shot multibox detector. In European conference on computer vision, pages 21–37. Springer, 2016.
 
