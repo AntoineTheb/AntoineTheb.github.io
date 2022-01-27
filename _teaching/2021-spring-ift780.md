@@ -43,7 +43,7 @@ Travaux pratiques
 | 0 | Mise en place                            |                                      | [PPTX](/files/ift780/00_TP.pptx) |
 | 1 | Réseaux de neurones pleinement connectés | [TP1.zip](/files/ift780/TP1/TP1.zip) | [PDF](/files/ift780/TP1/IFT780_TP1.pdf) |
 | 2 | Réseaux de neurones convolutifs          | [TP2.zip](/files/ift780/TP2/TP2.zip) | [PDF](/files/ift780/TP2/IFT780_TP2.pdf) |
-| 3 | Segmentation cardiaque                   | [TP3.zip](/files/ift780/TP3/TP3.zip) | [PDF](/files/ift780/TP3/IFT780_TP3.pdf) |
+| 3 | Segmentation cardiaque                   | [TP3.zip](https://drive.google.com/file/d/1J7fv1YkW88B_caRNe0o47hr8N4UoqKHA/view?usp=sharing) | [PDF](/files/ift780/TP3/IFT780_TP3.pdf) |
 
 Ressources
 ======
