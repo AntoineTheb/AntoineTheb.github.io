@@ -24,7 +24,7 @@ Méthode pédagogique
 | 0  | Présentation                                                        | [PPTX](/files/ift780/00_presentation.pptx) |                                             |
 | 1  | Concepts de base                                                    | [PPTX](/files/ift780/01_MLP.pptx)          | [[9]](#9) : 6.1, 6.2, 6.3, 6.5, [[45]](#27) |
 | 2  | Réseaux à convolution                                               | [PPTX](/files/ift780/02_CNN.pptx)          | [[21]](#21) : 9.0 à 9.5 ; [[27]](#27) |
-| 3  | Réseaux à convolution avancés et architectures convolutives modernes|                                            | Réseaux à convolutions : [[27]](#27) [[26]](#26) [[22]](#22) [[45]](#45) [[50]](#50) [[43]](#43) [[46]](#46) [[17]](#17) [[20]](#20) [[19]](#19) |
+| 3  | Réseaux à convolution avancés et architectures convolutives modernes| [PPTX](/files/ift780/03_CNN_avance.pptx)   | Réseaux à convolutions : [[27]](#27) [[26]](#26) [[22]](#22) [[45]](#45) [[50]](#50) [[43]](#43) [[46]](#46) [[17]](#17) [[20]](#20) [[19]](#19) |
 | 4  | Segmentation et localisation                                        |                                            | Segmentation et localisation : [[48]](#48) [[29]](#29) [[1]](#1) [[42]](#42) [[32]](#32) [[5]](#5) [[23]](#23) [[6]](#6) [[34]](#34) [[14]](#14) [[13]](#13) [[41]](#41) [[39]](#39) [[40]](#40) [[28]](#28) [[16]](#16) |
 | 5  | Matériel et bibliothèques de code                                   |                                            |           |
 | 6  | Considérations pratiques                                            |                                            |           |
