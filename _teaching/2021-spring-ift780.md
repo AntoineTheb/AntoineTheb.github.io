@@ -26,7 +26,7 @@ Méthode pédagogique
 | 2  | Réseaux à convolution                                               | [PPTX](/files/ift780/02_CNN.pptx)          | [[21]](#21) : 9.0 à 9.5 ; [[27]](#27) |
 | 3  | Réseaux à convolution avancés et architectures convolutives modernes| [PPTX](/files/ift780/03_CNN_avance.pptx)   | Réseaux à convolutions : [[27]](#27) [[26]](#26) [[22]](#22) [[45]](#45) [[50]](#50) [[43]](#43) [[46]](#46) [[17]](#17) [[20]](#20) [[19]](#19) |
 | 4  | Segmentation et localisation                                        | [PDF](/files/ift780/04_segmentation_localisation.pdf)   | Segmentation et localisation : [[48]](#48) [[29]](#29) [[1]](#1) [[42]](#42) [[32]](#32) [[5]](#5) [[23]](#23) [[6]](#6) [[34]](#34) [[14]](#14) [[13]](#13) [[41]](#41) [[39]](#39) [[40]](#40) [[28]](#28) [[16]](#16) |
-| 5  | Matériel et bibliothèques de code                                   |                                            |           |
+| 5  | Matériel et bibliothèques de code                                   | [PDF](/files/ift780/05_materiel.pdf)       |           |
 | 6  | Considérations pratiques                                            |                                            |           |
 | 7  | Réseaux récurrents, attention et transformers                       |                                            | Réseaux récurrents [[31]](#31) [[18]](#18) [[8]](#8) Attention : [[2]](#2) [[30]](#30) [[49]](#49) [[7]](#7) Transformers : [[47]](#47) [[11]](#11) [[37]](#37) [[38]](#38) [[4]](#4)|
 | 8  | Modèles génératifs                                                  |                                            | Autoencodeurs : [[25]](#25) [[35]](#35) [[44]](#44) [[12]](#12) GANs : [[15]](#15) [[33]](#33) [[36]](#36) [[3]](#3) [[24]](#24) |
