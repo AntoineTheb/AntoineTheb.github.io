@@ -29,7 +29,7 @@ Méthode pédagogique
 | 5  | Matériel et bibliothèques de code                                   | [PDF](/files/ift780/05_materiel.pdf)       |           |
 | 6  | Considérations pratiques                                            |                                            |           |
 | 7  | Réseaux récurrents, attention et transformers                       | [PDF](/files/ift780/07_reseaux_recurrents.pdf) | Réseaux récurrents [[31]](#31) [[18]](#18) [[8]](#8) Attention : [[2]](#2) [[30]](#30) [[49]](#49) [[7]](#7) Transformers : [[47]](#47) [[11]](#11) [[37]](#37) [[38]](#38) [[4]](#4)|
-| 8  | Modèles génératifs                                                  |                                            | Autoencodeurs : [[25]](#25) [[35]](#35) [[44]](#44) [[12]](#12) GANs : [[15]](#15) [[33]](#33) [[36]](#36) [[3]](#3) [[24]](#24) |
+| 8  | Modèles génératifs                                                  | [PDF](/files/ift780/08_modeles_generatifs.pdf) | Autoencodeurs : [[25]](#25) [[35]](#35) [[44]](#44) [[12]](#12) GANs : [[15]](#15) [[33]](#33) [[36]](#36) [[3]](#3) [[24]](#24) |
 | 9  | Visualisation                                                       |                                            |           |
 | 10 | Optimisation d’hyper-paramètres                                     |                                            |           |
 
