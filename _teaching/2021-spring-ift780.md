@@ -32,6 +32,7 @@ Méthode pédagogique
 | 8  | Modèles génératifs                                                  | [PDF](/files/ift780/08_modeles_generatifs.pdf) | Autoencodeurs : [[25]](#25) [[35]](#35) [[44]](#44) [[12]](#12) GANs : [[15]](#15) [[33]](#33) [[36]](#36) [[3]](#3) [[24]](#24) |
 | 9  | Visualisation                                                       | [PDF](/files/ift780/09_visualisation.pdf) |           |
 | 10 | ~~Optimisation d’hyper-paramètres~~ Apprentissage par renforcement    |  [PDF](/files/ift780/10_renforcement.pdf) |           |
+| 11 | Conclusion | |
 
 Le plan de cours complet est disponible ici: [plan de cours](/files/ift780/ift780.pdf)
 
