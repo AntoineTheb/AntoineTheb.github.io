@@ -14,72 +14,79 @@ Education
 * B.Sc in Computer Science, Université de Sherbrooke, 2015-2018
 * Collegiate Degree in Software Engineering, Cégep Édouard-Montpetit, 2012-2015
 
-Student associations
+Grants & awards
 ======
-* Représentant d'informatique et responsable des communications at the Regroupement étudiant des chercheurs et chercheuses en sciences de l'Université de Sherbrooke (RECSUS) 
-* (Past) Membre de Jeux et Défis Informatique de Sherbrooke (JDIS)
+* Fonds de recherche du Québec – Nature et technologies (FRQNT) # 320196, 2022
+* Bourses étudiantes pour le soutien des travaux de recherche, Centre d’imagerie médicale de l’Université de Sherbrooke (CIMUS) et l’Axe d’imagerie médicale (AIM) du Centre de recherche du CHUS (CRCHUS), 2020
+* Bourses étudiantes pour le soutien des travaux de recherche, Centre d’imagerie médicale de l’Université de Sherbrooke (CIMUS) et l’Axe d’imagerie médicale (AIM) du Centre de recherche du CHUS (CRCHUS), 2019
+* Direction recherche, Université de Sherbrooke, 2018 
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 Teaching assitant work experience
 ======
-* Fall 2021: IFT199 - Introduction à la programmation
-  * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Marianne Maynard
 
-* Fall 2021: IMN530-708 - Reconstruction et analyse d’images médicales
+* [IFT603-712 - Techniques d'apprentissage](https://www.usherbrooke.ca/admission/fiches-cours/IFT603)
   * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Emmanuelle Renaud
+  * Teacher: Pierre-Marc Jodoin (Fall 2021, Spring 2020, Fall 2019), Martin Vallière (Fall 2022, Spring 2021, Fall 2020)
 
-* Fall 2021: IFT603-712 - Techniques d'apprentissage
+* [IMN530-708 - Reconstruction et analyse d’images médicales](https://www.usherbrooke.ca/admission/fiches-cours/IMN530)
   * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Pierre-Marc Jodoin
+  * Teacher: Emmanuelle Renaud (Fall 2022, Fall 2021), Maxime Descoteaux (Fall 2020)
 
-* Summer 2021: IFT615 - Intelligence artificielle
+* [IFT199 - Introduction à la programmation](https://www.usherbrooke.ca/admission/fiches-cours/IFT199)
   * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Frédéric Bergeron
+  * Teacher: Marianne Maynard (Fall 2021)
 
-* Spring 2021: IFT603-712 - Techniques d'apprentissage
+* [IFT615 - Intelligence artificielle](https://www.usherbrooke.ca/admission/fiches-cours/IFT615)
+  * Summer 2021
   * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Pierre-Marc Jodoin
+  * Teacher: Frédéric Bergeron (Summer 2021), Mikaël Fortin (Summer 2020), Froduald Kabanza (Summer 2019, Sring 2019)
 
-* Spring 2021: IFT615 - Intelligence artificielle
+* [IFT630 - Processus concurrents et parallélismes](https://www.usherbrooke.ca/admission/fiches-cours/IFT630)
   * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Frédéric Bergeron
+  * Teacher: Daniel Junior Dubé (Summer 2019)
 
-* Fall 2020: IMN530-708 - Reconstruction et analyse d’images médicales
+* [IFT320 - Systèmes d'exploitation](https://www.usherbrooke.ca/admission/fiches-cours/IFT320)
   * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Maxime Descoteaux
+  * Teacher: Mikaël Fortin (Fall 2017)
 
-* Fall 2020: IFT603-712 - Techniques d'apprentissage
-  * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Martin Vallières
+Student implication
+======
 
-* Summer 2020: IFT615 - Intelligence artificielle
-  * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Mikaël Fortin
+- Président, Représentant d'informatique at the [Regroupement étudiant des chercheurs et chercheuses en sciences de l'Université de Sherbrooke (RECSUS)](https://www.recsus.org/). Previously responsable des communications, vice-président
+- (Past) Member of [Jeux et Défis Informatique de Sherbrooke (JDIS)](https://jdis.ca/).
 
-* Spring 2020: IFT603-712 - Techniques d'apprentissage
-  * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Pierre-Marc Jodoin
- 
-* Fall 2019: IFT603-712 - Techniques d'apprentissage
-  * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Pierre-Marc Jodoin
+Reviewer
+======
+* [NeuroImage](/files/reviews/Certificate_YNIMG_Recognised.pdf) (1x)
+* MIDL 2022
+* [Medical Image Analysis](/files/reviews/Certificate_MEDIMA_Recognised.pdf) (4x)
+* MIDL 2021
+* MIDL 2020
 
-* Summer 2019: IFT630 - Processus concurrents et parallélismes
-  * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Daniel Junior Dubé
-
-* Summer 2019: IFT615 - Intelligence artificielle
-  * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Froduald Kabanza
-
-* Spring 2019: IFT615 - Intelligence artificielle
-  * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Froduald Kabanza
-
-* Fall 2017: IFT615 - Systèmes d'exploitation
-  * Faculté des Sciences, Université de Sherbrooke
-  * Superviseur: Mikaël Fortin
+Conference, workshop and event organization
+======
+* Forum de la recherche 2021
+* Symposium International Imaginez l'Imagerie 2020
+* Cabane.io @ Sherbrooke, 2019
+* JDIS Games 2019
 
 Work experience
 ======
@@ -94,21 +101,7 @@ Work experience
 * Spring, Summer 2015: Web Developper, Pardeux e-Learning
   * Longueuil, QC, CA
 
-Conferences
-======
-* Colloque REPARTI 2021, oral presenter, attendee
-* ISMRM 2021, oral presenter, attendee
-* Symposium on Explanation in Neuroscience and Artificial Intelligence, attendee
-* Symposium International Imaginez l'Imagerie 2020, organizer, reviewer
-* MAIN 2020, attendee
-* MIDL 2020, reviewer, volunteer, attendee
-* UNIQUE 1st Scientific Day, 2019, attendee
-* Cabane.io @ Sherbrooke, 2019, organizer
-* Hackfest, 2019, attendee
-* ISMRM 2019, attendee
-* DIPY Workshop 2019, attendee
-
-Competitions
+Computer Science Competitions
 ======
 * Northsec 2020, team Clickesti
 * CS Games 2020, coach and mentor
@@ -121,20 +114,3 @@ Competitions
 * Coveo Blitz 2018, team Laser Raptors
 * CS Games 2017, team Ramsay
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
