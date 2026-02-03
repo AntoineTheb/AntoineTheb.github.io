@@ -2,44 +2,77 @@
 <head>
   <meta charset="UTF-8">
   <style>
-    /*
-        Yes, I put my CSS here because I figured 'why bother, it's 30 lines at most'
-        The design of this page was heavily inspired by
-            - http://motherfuckingwebsite.com
-            - http://bettermotherfuckingwebsite.com
-            - http://bestmotherfucking.website
-    */
-    html {
-      padding: 40px; /* pad on mobile */
+  html{
+    padding: 28px;              /* comfortable on mobile */
+    background: #f6f7f9;        /* light, sleek */
+  }
+
+  body{
+    margin: 28px auto;
+    max-width: 820px;           /* tighter column */
+    color: #14161a;             /* dark but not pure black */
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.65;
+    word-wrap: break-word;
+  }
+
+  #content{ position: relative; }
+
+  a, a:visited{
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  a:hover{ opacity: 0.75; }
+
+  hr{
+    border: 0;
+    border-top: 1px solid rgba(20,22,26,0.12);
+    margin: 14px 0 18px 0;
+  }
+
+  h1{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.02em;
+  }
+
+  h3{
+    margin: 26px 0 8px 0;
+    font-size: 1.05rem;
+  }
+
+  ul{
+    list-style: circle;
+    padding-left: 1.2rem;
+    margin: 0;
+  }
+
+  li{ margin: 0 0 0.45rem 0; }
+
+  img.profile{
+    float: right;
+    width: 320px;
+    height: 320px;
+    margin: 0 0 14px 22px;
+    border-radius: 14px;
+    object-fit: cover;
+  }
+
+  /* Make image behave on small screens */
+  @media (max-width: 860px){
+    img.profile{
+      float: none;
+      width: 100%;
+      height: auto;
+      max-height: 420px;
+      margin: 14px 0 10px 0;
     }
-    body {
-      font-size: 1.2em sans-serif;
-      height: 100%;
-      padding: 0;
-      max-width: 960px;
-      margin: 40px auto;
-      word-wrap:break-word; /* break URLs */
-    }
-    #content {
-      position: relative;
-    }
-    a, a:visited {
-      color: #000;
-      text-decoration: underline;
-    }
-    ul {
-      list-style-type: circle;
-      list-style-position: outside;
-    }
-    li {
-       margin:0 0 3px 0;   
-    }
-    h1, h3 {
-      margin-bottom: 0px;
-    }
-    img {
-          object-fit: cover;
-    }
+  }
+
   </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ST96WEJ1T"></script>
@@ -54,7 +87,7 @@
 <body>
   <div id="content">
     <h1>Antoine Théberge</h1>
-    <img src="photo.jpg" align="right" style="width:400px; height:400px; margin-left:25px;" />
+    <img class="profile" src="photo.png" alt="Portrait of Antoine Théberge"/>
     <hr/>
 
     <span> PhD student in the <a href="https://vitalab.github.io/">VITAL of Université de Sherbrooke</a> and the <a href="https://scil.usherbrooke.ca/">SCIL of Université de Sherbrooke</a>. Most of my research and academic interests are centered around Reinforcement Learning, Diffusion MRI, Deep Learning and Tractography. <br/>
@@ -62,6 +95,7 @@
     <hr/>
     <a href="https://scholar.google.com/citations?user=m5GXCssAAAAJ">Google Scholar</a><br />
     <a href="https://openreview.net/profile?id=~Antoine_Theberge1">OpenReview</a><br />
+    <a href="https://orcid.org/0000-0002-3959-8316">ORCID</a><br />
     <a href="https://www.linkedin.com/in/antoine-th%C3%A9berge-3a2509b3">LinkedIn</a><br />
     <a href="https://github.com/AntoineTheb">GitHub</a>
 
@@ -71,42 +105,45 @@
       <li> <a href="notes/IST_2025.html">International Society for Tractography (IST) 2025</a> </li>
     </ul>
 
-    <h3> Publications </h3>
-    <hr/>
-    <ul>
-    <li> <b> Track-to-learn: A general framework for tractography with deep reinforcement learning </b> (2021) A Théberge, C Desrosiers, M Descoteaux, PM Jodoin. <i> Medical Image Analysis 72, 102093 </i> </li>
+    <h3>Publications as First Author</h3>
+    <ol>
+      <li><strong>Théberge, A.</strong>, Descoteaux, M., &amp; Jodoin, P. M. (2024, October). TractOracle: towards an anatomically-informed reward function for RL-based tractography. In <em>International Conference on Medical Image Computing and Computer-Assisted Intervention</em> (pp. 476-486). Cham: Springer Nature Switzerland.</li>
+      <li><strong>Théberge, A.</strong>, Desrosiers, C., Boré, A., Descoteaux, M., &amp; Jodoin, P. M. (2024). What matters in reinforcement learning for tractography. <em>Medical Image Analysis</em>, 93, 103085.</li>
+      <li><strong>Théberge, A.</strong>, Desrosiers, C., Descoteaux, M., &amp; Jodoin, P. M. (2021). Track-to-Learn: A general framework for tractography with deep reinforcement learning. <em>Medical Image Analysis</em>, 72, 102093.</li>
+    </ol>
 
-    <li> <b> Tractostorm 2: Optimizing tractography dissection reproducibility with segmentation protocol dissemination </b> (2022) F Rheault, KG Schilling, A Valcourt‐Caron, A Théberge, C Poirier, .... <i> Human Brain Mapping 43 (7), 2134-2147 </i> </li>
+    <h3>Publications in review</h3>
+    <ol>
+      <li><strong>Théberge, A.</strong>, El Yamani, Z., Barakovic, M., Magon, S., Yang, J. Y.-M., Descoteaux, M., Rheault, F., &amp; Jodoin, P.-M. (2025, October). BundleParc: Consistent White Matter Bundle Parcellation without Tractography. Submitted to Medical Image Analysis</li>
+    </ol>
 
-    <li> <b> High‐frequency longitudinal white matter diffusion‐and myelin‐based MRI database: Reliability and variability </b> (2023) M Edde, G Theaud, M Dumont, A Théberge, A Valcourt‐Caron, G Gilbert, .... <i> Human Brain Mapping 44 (9), 3758-3780 </i> </li>
+    <h3>Publications as Co-Author</h3>
+    <ol>
+      <li>Renauld, E., Boré, A., Poirier, C., Valcourt-Caron, A., Karan, P., <strong>Théberge, A.</strong>, ... &amp; Descoteaux, M. (2026). Tractography analysis with the scilpy toolbox. <em>Aperture Neuro</em>, 6.</li>
+      <li>Levesque, J., <strong>Théberge, A.</strong>, Descoteaux, M., &amp; Jodoin, P. M. (2025). Exploring the robustness of TractOracle methods in RL-based tractography. <em>Medical Image Analysis</em>, 103743.</li>
+      <li>Zhang, F., <strong>Théberge, A.</strong>, Jodoin, P. M., Descoteaux, M., &amp; O’Donnell, L. J. (2025). Think deep in the tractography game: deep learning for tractography computing and analysis. <em>Brain Structure and Function</em>, 230(6), 100.</li>
+      <li>Edde, M., Theaud, G., Dumont, M., <strong>Théberge, A.</strong>, Valcourt‐Caron, A., Gilbert, G., ... &amp; Descoteaux, M. (2023). High‐frequency longitudinal white matter diffusion‐and myelin‐based MRI database: Reliability and variability. <em>Human Brain Mapping</em>, 44(9), 3758-3780.</li>
+      <li>Renauld, E., <strong>Théberge, A.</strong>, Petit, L., Houde, J. C., &amp; Descoteaux, M. (2023). Validate your white matter tractography algorithms with a reappraised ISMRM 2015 Tractography Challenge scoring system. <em>Scientific Reports</em>, 13(1), 2347.</li>
+      <li>Rheault, F., Schilling, K. G., Valcourt‐Caron, A., <strong>Théberge, A.</strong>, Poirier, C., Grenier, G., ... &amp; Landman, B. A. (2022). Tractostorm 2: Optimizing tractography dissection reproducibility with segmentation protocol dissemination. <em>Human Brain Mapping</em>, 43(7), 2134-2147.</li>
+      <li>Anctil-Robitaille, B., <strong>Théberge, A.</strong>, Jodoin, P. M., Descoteaux, M., Desrosiers, C., &amp; Lombaert, H. (2022). Manifold-aware synthesis of high-resolution diffusion from structural imaging. <em>Frontiers in Neuroimaging</em>, 1, 930496.</li>
+      <li>Edde, M., Theaud, G., Dumont, M., <strong>Théberge, A.</strong>, Valcourt-Caron, A., Magon, S., &amp; Descoteaux, M. (2022). Measures of reliability in high frequency longitudinal white matter multi-shell diffusion and inhomogeneous magnetization transfer database. <em>ISMRM 2022</em>, 4455.</li>
+    </ol>
 
-    <li> <b> Validate your white matter tractography algorithms with a reappraised ISMRM 2015 Tractography Challenge scoring system </b> (2023) E Renauld, A Théberge, L Petit, JC Houde, M Descoteaux. <i> Scientific Reports 13 (1), 2347 </i> </li>
+    <h3>Conference Abstracts</h3>
+    <ol>
+      <li><strong>Théberge, A.</strong>, Jodoin, P. M., Yang, J., Descoteaux, M. &amp; Rheault, F. (2025). BundleParc: automatic bundle parcellation in tumor data. In <em>International Society for Tractography conference</em>.</li>
+      <li><strong>Théberge, A.</strong>, El Yamani, Z., Rheault, F., Descoteaux, M. &amp; Jodoin, P. M. (2025). LabelSeg: Automatic Tract Labelling Without Tractography. In <em>ISMRM Workshop on 40 Years of Diffusion: Past, Present &amp; Future Perspectives</em>.</li>
+      <li><strong>Théberge, A.</strong>, Poirier, C., Jodoin, P. M., &amp; Descoteaux, M. (2022). Incorporating Anatomical Priors into Track-to-Learn. In <em>ISMRM Diffusion Workshop: from research to clinic</em>.</li>
+      <li><strong>Théberge, A.</strong>, Desrosiers, C., Jodoin, P. M., &amp; Descoteaux, M. (2022). The do's and don'ts of reinforcement learning for tractography. In <em>Medical Imaging with Deep Learning</em>.</li>
+      <li><strong>Théberge, A.</strong>, Desrosiers, C., Jodoin, P. M., &amp; Descoteaux, M. (2021). Track-To-Learn: A general framework for tractography with deep reinforcement learning. In <em>International Society for Magnetic Resonance in Medicine Conference 2021</em>.</li>
+    </ol>
 
-    <li> <b> Measures of reliability in high frequency longitudinal white matter multi-shell diffusion and inhomogeneous magnetization transfer database </b> (2021) M Edde, G Theaud, M Dumont, A Théberge, A Valcourt-Caron, S Magon, .... <i> ISMRM </i> </li>
-
-    <li> <b> What matters in reinforcement learning for tractography </b> (2024) A Théberge, C Desrosiers, A Boré, M Descoteaux, PM Jodoin. <i> Medical Image Analysis 93, 103085 </i> </li>
-
-    <li> <b> The do's and don'ts of reinforcement learning for tractography </b> (2022) A Théberge, C Desrosiers, P Jodoin, M Descoteaux. <i> Medical Imaging with Deep Learning </i> </li>
-
-    <li> <b> TractOracle: towards an anatomically-informed reward function for RL-based tractography </b> (2024) A Théberge, M Descoteaux, PM Jodoin. <i> arXiv preprint arXiv:2403.17845 </i> </li>
-
-    <li> <b> Tractography passes the test: Results from the diffusion-simulated connectivity (disco) challenge </b> (2023) G Girard, J Rafael-Patiño, R Truffet, DB Aydogan, N Adluru, VA Nair, .... <i> NeuroImage 277, 120231 </i> </li>
-
-    <li> <b> Impact of follow ups, time interval and study duration in diffusion & myelin MRI clinical study in MS </b> (2023) M Edde, F Houde, G Theaud, M Dumont, G Gilbert, JC Houde, L Maltais, .... <i> NeuroImage: Clinical 40, 103529 </i> </li>
-
-    <li> <b> Manifold-aware synthesis of high-resolution diffusion from structural imaging </b> (2022) B Anctil-Robitaille, A Théberge, PM Jodoin, M Descoteaux, C Desrosiers, .... <i> Frontiers in Neuroimaging 1, 930496 </i> </li>
-
-    <li> <b> Tractography from Gaussian multi-compartmental ODFs </b> () E Hernandez-Gutierrez, A Ramirez-Manzanares, A Théberge, .... <i>  </i> </li>
-
-    <li> <b> Where do streamlines come from? Seeding strategies impact on streamline distribution </b> () M Edde, E St-Onge, A Théberge, G Theaud, E Renauld, M Descoteaux. <i>  </i> </li>
-          
-    </ul>
 
     <h3> Education </h3>
     <hr/>
     <ul>
       <li> PhD in Computer Science, Université de Sherbrooke, </br>
-           2021-2024</li>
+           2021-2026</li>
       <li> M.Sc in Computer Science, Université de Sherbrooke, </br>
            Mention of excellence, </br>
            2018-2021</li>
@@ -119,12 +156,18 @@
     <h3> Scholarships & Awards </h3>
     <hr/>
     <ul>
+      <li><i>MITACS Globalink research grant</i>, MITACS, 2025</li>
+      <li><i>ISMRM Research exchange award</i>, ISMRM, 2025</li>
+      <li><i>Subventions de voyage pour conférences UNIQUE</i>, Centre UNIQUE, 2024</li>
+      <li><i>Bourses de congrès Neurosciences Sherbrooke</i>, Neurosciences Sherbrooke, 2024</li>
+      <li><i>Bourses du Programme de mobilité internationale et de courts séjours à l'extérieur du Québec (PMICSE) - Volet recherche</i>, Université de Sherbrooke, 2024</li>
+      <li><i>Bourse d'implication</i>, REMDUS, 2023</li>
       <li> <i>Fonds de recherche du Québec – Nature et technologies (FRQNT) # 320196, 2022</i></li>
       <li> <i>Bourses étudiantes pour le soutien des travaux de recherche</i>, Centre d’imagerie médicale de l’Université de Sherbrooke (CIMUS) et l’Axe d’imagerie médicale (AIM) du Centre de recherche du CHUS (CRCHUS), 2020</li>
       <li> <i>Bourses étudiantes pour le soutien des travaux de recherche</i>, Centre d’imagerie médicale de l’Université de Sherbrooke (CIMUS) et l’Axe d’imagerie médicale (AIM) du Centre de recherche du CHUS (CRCHUS), 2019</li>
       <li> <i>Direction Recherche</i>, Université de Sherbrooke, 2018</li>
     </ul>
-    <h3> Oral presentations </h3>
+    <h3> Scientific outreach </h3>
     <hr/>
     <ul>
       <li><em><a href="https://www.youtube.com/watch?v=2Xw2D3EFxq8">Des réseaux de neurones *artificiels* ?</a></em> - Bistro Brain, winter 2023</li>
@@ -132,10 +175,24 @@
       <li><em><a href="https://www.youtube.com/watch?v=N82_jsmspMk">Des mythes sur le cerveau humain</a></em> - Bistro Brain, fall 2022</li>
       <li><em><a href="https://www.youtube.com/watch?v=REEjdRE9_AM">L’intelligence artificielle pour comprendre le cerveau humain</a></em> - Bistro Brain, fall 2021</li>
       <li><em>Reconstruire la matière blanche avec l'apprentissage par renforcement</em> - Colloque REPARTI 2021 (virtuel)</li>
-      <li><em>Track-To-Learn: A general framework for tractography with deep reinforcement learning -
-        International Society for Magnetic Resonance in Medicine Conference 2021</li>
-      <li> <a href="https://www.youtube.com/watch?v=xfcs2iJCpNw">Introduction to Machine Learing, from Linear Regression to Neural Networks (French)</a>, spring 2019 </li>
+      <li> <a href="https://www.youtube.com/watch?v=xfcs2iJCpNw">Introduction to Machine Learning, from Linear Regression to Neural Networks (French)</a>, spring 2019 </li>
     </ul>
+
+
+    <h3>Conferences &amp; Workshops (Organization &amp; Session Roles)</h3>
+    <hr/>
+    <ul>
+      <li><b>ISMRM Workshop on 40 Years of Diffusion</b> (2025) Moderator. <i>Kyoto, Japan</i></li>
+      <li><b>ISMRM Workshop on 40 Years of Diffusion</b> (2025) Organizing committee (Educational Sessions; “AI &amp; Big Data”). <i>Kyoto, Japan</i></li>
+      <li><b>Forum de la Recherche</b> (2023) Organizing committee, Treasurer. <i>Sherbrooke, Canada</i></li>
+      <li><b>Forum de la Recherche</b> (2021) Organizing committee. <i>Sherbrooke, Canada</i></li>
+      <li><b>Medical Imaging and Deep Learning (MIDL) Workshop</b> (2021) Session chair. <i>Lübeck, Germany</i></li>
+      <li><b>Symposium International Imaginez l’Imagerie</b> (2020) Organizing committee. <i>Université de Sherbrooke</i></li>
+      <li><b>Medical Imaging and Deep Learning (MIDL) Workshop</b> (2020) Volunteer. <i>Montréal, Canada</i></li>
+      <li><b>Cabane IO</b> (2019) Organizing committee. <i>Sherbrooke, Canada</i></li>
+      <li><b>JDIS Games 2019</b> (2019) Organizing committee. <i>Université de Sherbrooke, Canada</i></li>
+    </ul>
+
     <h3> Student associations </h3>
     <hr/>
     <ul>
@@ -144,11 +201,13 @@
       <li><em>Vice-président (2022)</em> at the <a href="https://www.recsus.org/">Regroupement étudiant des chercheurs et chercheuses en sciences de l'Université de Sherbrooke (RECSUS).</a></li>
       <li><em>Représentant d'informatique et responsable des communications (2021)</em> at the <a href="https://www.recsus.org/">Regroupement étudiant des chercheurs et chercheuses en sciences de l'Université de Sherbrooke (RECSUS).</a></li>
     </ul>
-
+    
     <h3> Teaching and TA work </h3>
     <hr/>
     <ul>
       <li> <a href="https://www.usherbrooke.ca/admission/fiches-cours/ift780/">IFT780: Neural networks</a>, winter 2022 (Course instructor)</li>
+      <li> <a href="https://www.usherbrooke.ca/admission/fiches-cours/IMN530/">IMN530: Reconstruction et analyse d’images médicales</a>, fall 2024 (TA) </li>
+      <li> <a href="https://www.usherbrooke.ca/admission/fiches-cours/ift603/">IFT603: Machine Learning</a>, fall 2024 (TA)</li>
       <li> <a href="https://www.usherbrooke.ca/admission/fiches-cours/ift603/">IFT603: Machine Learning</a>, fall 2023 (TA)</li>
       <li> <a href="https://www.usherbrooke.ca/admission/fiches-cours/ift603/">IFT603: Machine Learning</a>, winter 2023 (TA)</li>
       <li> <a href="https://www.usherbrooke.ca/admission/fiches-cours/ift780/">IFT780: Neural networks</a>, winter 2023 (TA)</li>
@@ -189,15 +248,6 @@
             March 2015 - November 2015
       </li>
 
-    </ul>
-    <h3> Conferences </h3>
-    <hr/>
-    <ul>
-      <li> <a href="https://www.mcgill.ca/channels/channels/event/colloque-reparti-2021-virtuel-virtual-reparti-colloquium-331346">Colloque REPARTI 2021</a>, oral presenter</li>
-      <li> <a href="https://www.ismrm.org/21m/">ISMRM 2021</a>, oral presenter</li>
-      <li> <a href="https://www.fourwav.es/view/2000/info/">Symposium International <em>Imaginez l'Imagerie</em> 2020</a>, organizer, reviewer</li>
-      <li> <a href="https://2020.midl.io/">MIDL 2020</a>, reviewer, volunteer</li>
-      <li> <a href="http://sherbrooke.cabane.io/">Cabane.io @ Sherbrooke, 2019</a>, organizer</li>
     </ul>
     <h3> Competitions </h3>
     <hr/>
